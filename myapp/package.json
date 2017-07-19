@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt",
+    "start": "node ./bin/www"
+  },
+  "author": "Navya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "grunt-tslint": "^5.0.1",
+    "jade": "^1.11.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1",
+    "typings": "^2.1.1"
+  }
+}
